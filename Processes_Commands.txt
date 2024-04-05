@@ -1,0 +1,10 @@
+1  => HUP  ->  Hang Up
+2  => INT  ->  Interrupt (Same as CTRL-C)
+3  => QUIT ->  Just simple quit
+9  => KILL ->  Kill without notifying the program, Contacts directly with kernel
+11 => SEGV ->  Segmentation Violation 
+15 => TERM ->  Default signal sent by kill command.
+18 => CONT ->  Continue | Restore process after a STOP or TSTP signal (sent by BG and FG)
+19 => STOP ->  Pause without terminating. (program cannot ignore this)
+20 => TSTP ->  Terminal Stop. CTRL-Z is pressed. (can be ignorable)
+28 => WINCH->  Window change 
